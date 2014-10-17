@@ -24,7 +24,7 @@ config.root = './build';
 config.surf = {};
 config.surf.output     = 'surf-' + surf.version + '.js';
 config.surf.outputMin  = 'surf-' + surf.version + '.min.js';
-config.surf.src        = './surf/main.js';
+config.surf.src        = './surf/Surf.js';
 config.surf.dest       = config.root + '/dist';
 config.surf.watch      = './surf/*js';
 
