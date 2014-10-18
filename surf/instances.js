@@ -19,10 +19,10 @@ var instances = (function () {
 	}
 
 	return {
-		create: function () {
+		set: function (elem) {
 			var id = getID();
 
-			if (items[id]) return this.create();
+			if (items[id]) return this.set();
 
 			items[id] = new _Surf();
 			return id;
